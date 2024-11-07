@@ -27,5 +27,8 @@ public class MyThread extends Thread {
 
         String temp = "For checking ";
         System.out.println(temp);
+
+        String temp2 = "Aagaain checking........";
+        System.out.println(temp2);
     }
 }
