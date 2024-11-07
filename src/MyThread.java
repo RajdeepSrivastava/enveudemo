@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 
 public class MyThread extends Thread {
     @Override
@@ -23,5 +24,8 @@ public class MyThread extends Thread {
         t1.join();
 
         System.out.println(t1.getState());
+
+        String temp = "For checking ";
+        System.out.println(temp);
     }
 }
